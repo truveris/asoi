@@ -26,3 +26,5 @@ A configuration file is required to run asoi, this is an example:
 asoi reads the status RSS from AWS and keeps track of the latest update on a
 given topic by storing its timestamp in a file named after the topic in the
 current directory.
+
+This bot doesn't join the channel, target channels needs to have `-n` mode.
